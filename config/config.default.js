@@ -24,7 +24,7 @@ module.exports = appInfo => {
 
   config.view = {
     mapping: {
-      '.html': 'ejs',
+      '.html': 'arttemplate',
     },
   };
   // add your user config here

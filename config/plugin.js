@@ -17,5 +17,9 @@ module.exports = {
   validate: {
     enable: true,
     package: 'egg-validate',
+  },
+  arttemplate: {
+    enable: true,
+    package: 'egg-view-arttemplate',
   }
 };
