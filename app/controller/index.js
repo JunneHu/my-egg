@@ -5,7 +5,7 @@ const Controller = require('egg').Controller;
 class IndexController extends Controller {
     async login() {
         const { ctx } = this;
-        ctx.body = '首页';
+        await ctx.render("/login.html");
     }
 }
 
